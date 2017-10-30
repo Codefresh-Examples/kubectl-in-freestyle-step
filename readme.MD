@@ -1,7 +1,7 @@
 ## Kubectl in Codefresh Freestyle step
 Running Kubernetes cmd in Codefresh as part of the workflow is easy.
 Codefresh adding all you clusters into the workflow to be used as part of your CI/CD pipeline.
-The context remain the same as it apears in Codefresh
+The context remains the same as it appears in Codefresh
 * Use image: `codefresh/kube-helm:master`
 * Add your commands
     * `kubectl config get-contexts`. Will print the cluster that we added to the workflow
